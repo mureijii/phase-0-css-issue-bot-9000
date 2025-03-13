@@ -1,23 +1,23 @@
 body {
-  background pink;
+  background: pink; /* Missing colon */
 }
 
 h1 {
   color: blue;
-  fontsize: 3em; 
+  font-size: 3em; /* "fontsize" should be "font-size" */
 }
 
 h2 {
   color: green;
-  font-weight: normal
-  font-style: italic;
+  font-weight: normal;
+  font-style: italic; /* Missing semicolon after "font-weight: normal" */
 }
 
 .completed {
-  font-family: 12px;
+  font-size: 12px; /* "font-family" should be "font-size" */
 }
 
 #tasks .completed {
-  backgound: #ccc;
+  background: #ccc; /* "backgound" should be "background" */
   text-decoration: underline;
 }
